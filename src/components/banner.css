@@ -1,0 +1,395 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    margin-top: 6rem;
+}
+
+
+.textP {
+    display: flex;
+}
+.start {
+    color: #e9dcff;
+    margin-bottom: -25px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 13px;
+}
+.saving {
+    color: #e9dcff;
+    margin-bottom: -25px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 13px;
+
+}
+.money {
+    color: #e9dcff;
+    margin-bottom: -25px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.smart {
+    margin-bottom: -40px;
+    font-size: 45px;
+}
+.for {
+    font-size: 45px;
+}
+.btnCon {
+    margin-top: -15px;
+}
+.btnDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 45px;
+    background-color: #e9dcff;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    border: none;
+    transition: all 250ms;
+    cursor: pointer;
+}
+.btnDownload:hover {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid white;
+}
+.bi-download {
+    margin-left: 10px;
+}
+
+.imgBanner {
+    object-fit: contain;
+    width: 600px;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .start {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 13px;
+    }
+    .saving {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 13px;
+    
+    }
+    .money {
+        color: #e9dcff;
+        margin-bottom: -10px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .smart {
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    .for {
+        font-size: 25px;
+    }
+    .btnCon {
+        margin-top: -15px;
+    }
+    .btnDownload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 45px;
+        background-color: #e9dcff;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+    }
+    .btnDownload:hover {
+        background-color: #1e1e1e;
+        color: white;
+        border: 1px solid white;
+    }
+    .bi-download {
+        margin-left: 10px;
+    }
+    
+    .imgBanner {
+        object-fit: contain;
+        width: 450px;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .start {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    }
+    .saving {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    
+    }
+    .money {
+        color: #e9dcff;
+        margin-bottom: -10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .smart {
+        margin-bottom: -20px;
+        font-size: 22px;
+    }
+    .for {
+        font-size: 22px;
+    }
+    .btnCon {
+        margin-top: 15px;
+    }
+    .btnDownload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
+        background-color: #e9dcff;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+    }
+    .bi-download {
+        margin-left: 10px;
+    }
+    
+    .imgBanner {
+        object-fit: contain;
+        width: 320px;
+        margin-left: 3rem;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .leftBanner {
+        margin-left: -3rem;
+    }
+    .start {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    }
+    .saving {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    
+    }
+    .money {
+        color: #e9dcff;
+        margin-bottom: -10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .smart {
+        margin-bottom: -20px;
+        font-size: 22px;
+        width: 200px;
+    }
+    .for {
+        margin-top: 1rem;
+        font-size: 22px;
+        width: 200px;
+    }
+    .btnCon {
+        margin-top: 15px;
+    }
+    .btnDownload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
+        background-color: #e9dcff;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+    }
+    .bi-download {
+        margin-left: 10px;
+    }
+    
+    .imgBanner {
+        object-fit: contain;
+        width: 300px;
+        margin-left: 2.1rem;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .leftBanner {
+        margin-left: -3.7rem;
+    }
+    .start {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    }
+    .saving {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    
+    }
+    .money {
+        color: #e9dcff;
+        margin-bottom: -10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .smart {
+        margin-bottom: -20px;
+        font-size: 22px;
+        width: 200px;
+    }
+    .for {
+        margin-top: 1rem;
+        font-size: 22px;
+        width: 200px;
+    }
+    .btnCon {
+        margin-top: 15px;
+    }
+    .btnDownload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
+        background-color: #e9dcff;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+    }
+    .bi-download {
+        margin-left: 10px;
+    }
+    
+    .imgBanner {
+        object-fit: contain;
+        width: 280px;
+        margin-left: 2.1rem;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .leftBanner {
+        margin-left: -3.7rem;
+    }
+    .start {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    }
+    .saving {
+        color: #e9dcff;
+        margin-bottom: -25px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 13px;
+    
+    }
+    .money {
+        color: #e9dcff;
+        margin-bottom: -10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .smart {
+        margin-bottom: -20px;
+        font-size: 22px;
+        width: 200px;
+    }
+    .for {
+        margin-top: 1rem;
+        font-size: 22px;
+        width: 200px;
+    }
+    .btnCon {
+        margin-top: 15px;
+    }
+    .btnDownload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
+        background-color: #e9dcff;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        border: none;
+        transition: all 250ms;
+        cursor: pointer;
+    }
+    .bi-download {
+        margin-left: 10px;
+    }
+    
+    .imgBanner {
+        object-fit: contain;
+        width: 270px;
+        margin-left: 2.5rem;
+        border-radius: 50px;
+    }
+}

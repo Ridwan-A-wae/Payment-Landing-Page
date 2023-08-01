@@ -1,2 +1,4 @@
-# React + Vite
-npm run dev
+# Payment-Landing-Page
+React, Pure CSS
+
+# Usage: npm run dev
